@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: rgb(34, 38, 44);
+}
+
+.navbar {
+    background-color: rgb(28, 30, 36);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 25px;
+}
+
+.navbar > h3 {
+    margin-right: auto;
+    color: rgb(97, 219, 251);
+    font-weight: 700;
+}
+
+.navbar > img {
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.main {
+    padding: 10px;
+    background-color: rgb(34, 38, 44);
+    color: aliceblue;
+    background-image: url("./Components/img/React-icon-half.png");
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+.main--heading {
+    padding: 10px;
+    letter-spacing: -0.05em;
+}
+
+.main--list {
+    max-width: 500px;
+    margin: 20px;
+}
+
+.main--list > li {
+    padding-block: 10px;
+    /*font-size: 1.5rem;*/
+}
+
+.main--list > li::marker {
+    color: rgb(97, 219, 251);
+    font-size: 2rem;
+}
